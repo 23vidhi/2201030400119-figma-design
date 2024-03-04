@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(to right, #5674A0, #42526A);
+        }
+
+        .container {
+            border-radius: 5px;
+            padding: 30px;
+            text-align: center;
+            background-color: linear-gradient(to right, #5674A0, #42526A);
+        }
+
+        .title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: black; /* Changed title color to dark */
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #999;
+            margin-bottom: 10px;
+        }
+
+        .input-container {
+            margin-bottom: 20px;
+        }
+
+        .input-container label {
+            display: block;
+            margin-bottom: 5px;
+            color: black; /* Changed label color to dark */
+        }
+
+        .input-container input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .social-login {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .social-login a {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .social-login a img {
+            width: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">RADIANT</h1>
+        <p class="subtitle">GET BETTER</p>
+        <p class="subtitle">PEACE OF MIND</p>
+
+        <form>
+            <div class="input-container">
+                <label for="email">Email address</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="input-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+            <button class="btn">Log in to Radiant</button>
+            <p>or</p>
+            <div class="social-login">
+                <a href="#">
+                    
+                    Continue with Google
+                </a>
+                <a href="#">
+                     continue with facebook
+                </a>
+                    
+            </div>
+        </form>
+    </div>
+</body>
+</html>

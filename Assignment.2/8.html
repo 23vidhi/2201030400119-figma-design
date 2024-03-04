@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiant</title>
+    <style>
+    
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #5674A0, #42526A);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-us, .follow-us {
+    margin-bottom: 40px;
+}
+
+.contact-us form label, .contact-us form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-us form input[type="text"],
+.contact-us form input[type="email"],
+.contact-us form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-us form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.follow-us .social-icons a {
+    margin-right: 10px;
+}
+
+.follow-us .social-icons img {
+    width: 30px;
+    height: 30px;
+}
+   </style>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+     <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, please feel free to get in touch with us.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section class="follow-us">
+        <h2>Follow Us</h2>
+        <p>Stay updated with our latest news and events by following us on social media.</p>
+        <div class="social-icons">
+            <a href="#"><img src="C:\Users\Vidhi\Pictures\facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="C:\Users\Vidhi\Pictures\insta.png" alt="Instagram"></a>
+            <a href="#"><img src="C:\Users\Vidhi\Pictures\twitter.png" alt="Twitter"></a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Radiant. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
